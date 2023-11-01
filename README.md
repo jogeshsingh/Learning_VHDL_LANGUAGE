@@ -24,9 +24,9 @@
 
 -  RTL design ----Register Transfer level
 
--  it is an abstraction of computer design , where microarchitecture is used to 
-   depict the building blocks of digital electronic system it comprises , of control path and data path sub blocks 
-   which are further categorized in MUX , DEMUX  , DECODERS , Flip flops ,
+-  it is an abstraction of computer design , where piece of hardware (digital logic) is used to 
+   depict the building blocks of electronic (binary 1's and 0's) system , it comprises of various control path (`FSM `) and data path sub blocks 
+   which are further categorized in `MUX` , `DEMUX`  , `DECODERS` , `Flip flops` ,
    complex state machines for controlling the flow of data 
 
 
