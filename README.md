@@ -20,7 +20,7 @@
      - It's used to decribe digital logic design , especially mostly used for creating RTL Design 
 
    
-## what is an RTL Design ?
+## What is an RTL Design ?
 
 RTL design ----Register Transfer level
 -- it is an abstraction of computer design , where microarchitecture is used to 
@@ -30,7 +30,7 @@ RTL design ----Register Transfer level
 
 
 
-## background of VHDL 
+## Background of VHDL 
 
 -- VHDL was firstly used in U.S department of defense in early 1980's to design digital electronics circuits ,
 -- and mainly for FPGA (Field Programmable Gate Arrays).
