@@ -14,7 +14,7 @@
      [Intro](https://www.synthworks.com/papers/vhdl_math_tricks_mapld_2003.pdf)
 
      
-<--------------->
+   < <--------------->
 
 - VHDL ---    VHSIC HDL ---- VERY HIGH SPEED INTEGRATED CIRCUIT HARDWARE DESCRIPTION LANGUAGE
 
