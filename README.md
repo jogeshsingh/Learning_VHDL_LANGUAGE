@@ -1,19 +1,16 @@
 # Learning_VHDL_LANGUAGE
 
 
-   -- INTEL
+   - INTEL
         [INTEL_VHDL](https://www.bing.com/videos/riverview/relatedvideo?&q=basic+of+vhdl+intel&&mid=0560627AA878FB5007350560627AA878FB500735&&FORM=VRDGAR)
  
- -- FREE RANGE VHDL
+   - FREE RANGE VHDL
       [FREE_RANGE_VHDL](https://faculty-web.msoe.edu/johnsontimoj/EE3921/files3921/Book_FreeRangeVHDL.pdf)
-
--- 
--- Good reference
+  
+   - Good reference
    [Ref](https://ics.uci.edu/~jmoorkan/vhdlref/)
-
-   
-      
--- Some Intro
+     
+   - Some Intro
      [Intro](https://www.synthworks.com/papers/vhdl_math_tricks_mapld_2003.pdf)
 
      
