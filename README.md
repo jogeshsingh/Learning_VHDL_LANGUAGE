@@ -1,7 +1,7 @@
 # Learning_VHDL_LANGUAGE
 
 
- -- INTEL
+   -- INTEL
         [INTEL_VHDL](https://www.bing.com/videos/riverview/relatedvideo?&q=basic+of+vhdl+intel&&mid=0560627AA878FB5007350560627AA878FB500735&&FORM=VRDGAR)
  
  -- FREE RANGE VHDL
