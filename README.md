@@ -13,15 +13,14 @@
    - Some Intro
      [Intro](https://www.synthworks.com/papers/vhdl_math_tricks_mapld_2003.pdf)
 
-     
-   < <--------------->
+   
 
 - VHDL ---    VHSIC HDL ---- VERY HIGH SPEED INTEGRATED CIRCUIT HARDWARE DESCRIPTION LANGUAGE
 
      - It's used to decribe digital logic design , especially mostly used for creating RTL Design 
 
-< <---------------->
-what is an RTL Design ?
+   
+## what is an RTL Design ?
 
 RTL design ----Register Transfer level
 -- it is an abstraction of computer design , where microarchitecture is used to 
@@ -30,8 +29,8 @@ RTL design ----Register Transfer level
    complex state machines for controlling the flow of data 
 
 
-< <------------------------------->
-give us little background of VHDL 
+
+## background of VHDL 
 
 -- VHDL was firstly used in U.S department of defense in early 1980's to design digital electronics circuits ,
 -- and mainly for FPGA (Field Programmable Gate Arrays).
