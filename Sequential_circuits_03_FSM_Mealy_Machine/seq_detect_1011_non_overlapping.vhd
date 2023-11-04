@@ -4,6 +4,20 @@
 -- Module Name: seq_detect_1011_non_overlapping - Behavioral - mealy machine
 -- In mealy machine output depends on the current state and inputs 
 -- while in moore machine output depends on the current state only
+
+-- Note the following -:
+
+-- for mealy machine
+
+-- in non-overlapping case for mealy machine the last bit is moved to reset state 
+-- in 1-bit overlapping case for mealy machine the last 1 bit is compared to 1 bit state 
+-- in 2-bit overlapping case for moore machine the last 2 bits are compared to 2 bit state
+
+-- For moore machine
+
+-- in non-overlapping case for moore machine the last 1 bit is comapred to 1 bit state  
+-- in 1-bit overlapping case for mealy machine the last 2 bits are compared to 2 bit state 
+-- in 2-bit overlapping case for moore machine the last 3 bits are compared to 3 bit state
 ----------------------------------------------------------------------------------
 
 
