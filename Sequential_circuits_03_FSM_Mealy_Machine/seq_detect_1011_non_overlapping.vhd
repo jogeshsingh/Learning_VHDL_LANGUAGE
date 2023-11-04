@@ -7,6 +7,8 @@
 
 -- Note the following -:
 
+-- for mealy machine
+
 -- in non-overlapping case for mealy machine the last bit is moved to reset state 
 -- in 1-bit overlapping case for mealy machine the last 1 bit is compared to 1 bit state 
 -- in 2-bit overlapping case for moore machine the last 2 bits are compared to 2 bit state
