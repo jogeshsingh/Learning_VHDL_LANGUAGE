@@ -13,6 +13,10 @@
    - Some Intro
      [Intro](https://www.synthworks.com/papers/vhdl_math_tricks_mapld_2003.pdf)
 
+  - VHDL Conversions
+
+    [VHDL_CONV](https://nandland.com/common-vhdl-conversions/#Numeric-Integer-To-Std_Logic_Vector)
+
    
 
 - VHDL ---    VHSIC HDL ---- VERY HIGH SPEED INTEGRATED CIRCUIT HARDWARE DESCRIPTION LANGUAGE
