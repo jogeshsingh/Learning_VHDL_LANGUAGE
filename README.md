@@ -16,6 +16,8 @@
   - VHDL Conversions
     [VHDL_CONV](https://nandland.com/common-vhdl-conversions/#Numeric-Integer-To-Std_Logic_Vector)
 
+ - [books_Download_VHDL](https://zlib.pub/download/digital-systems-design-using-vhdl-3rd-edition-h5pgsr2n76c0?hash=244430aba10b176079749610cc2aa93b)
+
    ![numeric_std_conversion](numeric_std_conversions.gif)
 
 - VHDL ---    VHSIC HDL ---- VERY HIGH SPEED INTEGRATED CIRCUIT HARDWARE DESCRIPTION LANGUAGE
