@@ -13,14 +13,14 @@
    - Some Intro
      [Intro](https://www.synthworks.com/papers/vhdl_math_tricks_mapld_2003.pdf)
 
-  - VHDL Conversions
+   - VHDL Conversions
     [VHDL_CONV](https://nandland.com/common-vhdl-conversions/#Numeric-Integer-To-Std_Logic_Vector)
 
- - [books_Download_VHDL](https://zlib.pub/download/digital-systems-design-using-vhdl-3rd-edition-h5pgsr2n76c0?hash=244430aba10b176079749610cc2aa93b)
+   - [books_Download_VHDL](https://zlib.pub/download/digital-systems-design-using-vhdl-3rd-edition-h5pgsr2n76c0?hash=244430aba10b176079749610cc2aa93b)
 
- -[Memories_in_VHDL](https://www.eng.auburn.edu/~nelson/courses/elec4200/Slides/VHDL%205%20Memory%20Models.pdf)
+   - [Memories_in_VHDL](https://www.eng.auburn.edu/~nelson/courses/elec4200/Slides/VHDL%205%20Memory%20Models.pdf)
  
-   ![numeric_std_conversion](numeric_std_conversions.gif)
+   - ![numeric_std_conversion](numeric_std_conversions.gif)
 
 - VHDL ---    VHSIC HDL ---- VERY HIGH SPEED INTEGRATED CIRCUIT HARDWARE DESCRIPTION LANGUAGE
 
