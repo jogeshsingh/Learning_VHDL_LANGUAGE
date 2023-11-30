@@ -10,7 +10,7 @@
    - Good reference
    [Reference](https://ics.uci.edu/~jmoorkan/vhdlref/)
      
-   - Some Intro
+   - Some 
      [Intro](https://www.synthworks.com/papers/vhdl_math_tricks_mapld_2003.pdf)
 
    - VHDL Conversions
