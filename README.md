@@ -22,6 +22,8 @@
  
    - ![numeric_std_conversion](numeric_std_conversions.gif)
 
+   - [Understanding_VHDL_ATTRIBUTES](http://xilinx.info/_hdl/2/_ref/acc-eda/language_overview/objects__data_types_and_operators/understanding_vhdl_attributes.htm#:~:text=%E2%80%98Succ%20%28value%29%20Example%3A%20V%3A%20state_type%20%3A%3D%20state_type%20%28Idle%29%3B,%28Read%29%3B%20--%20V%20has%20the%20value%20of%20Idle)
+
 - VHDL ---    VHSIC HDL ---- VERY HIGH SPEED INTEGRATED CIRCUIT HARDWARE DESCRIPTION LANGUAGE
 
    - It's used to decribe digital logic design , especially mostly used for creating RTL Design 
