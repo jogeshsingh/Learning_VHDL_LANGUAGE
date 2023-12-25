@@ -10,15 +10,19 @@
    - Good reference
    [Reference](https://ics.uci.edu/~jmoorkan/vhdlref/)
      
-   - Some Intro
+   - Some 
      [Intro](https://www.synthworks.com/papers/vhdl_math_tricks_mapld_2003.pdf)
 
-  - VHDL Conversions
+   - VHDL Conversions
     [VHDL_CONV](https://nandland.com/common-vhdl-conversions/#Numeric-Integer-To-Std_Logic_Vector)
 
- - [books_Download_VHDL](https://zlib.pub/download/digital-systems-design-using-vhdl-3rd-edition-h5pgsr2n76c0?hash=244430aba10b176079749610cc2aa93b)
+   - [books_Download_VHDL](https://zlib.pub/download/digital-systems-design-using-vhdl-3rd-edition-h5pgsr2n76c0?hash=244430aba10b176079749610cc2aa93b)
 
-   ![numeric_std_conversion](numeric_std_conversions.gif)
+   - [Memories_in_VHDL](https://www.eng.auburn.edu/~nelson/courses/elec4200/Slides/VHDL%205%20Memory%20Models.pdf)
+ 
+   - ![numeric_std_conversion](numeric_std_conversions.gif)
+
+   - [Understanding_VHDL_ATTRIBUTES](http://xilinx.info/_hdl/2/_ref/acc-eda/language_overview/objects__data_types_and_operators/understanding_vhdl_attributes.htm#:~:text=%E2%80%98Succ%20%28value%29%20Example%3A%20V%3A%20state_type%20%3A%3D%20state_type%20%28Idle%29%3B,%28Read%29%3B%20--%20V%20has%20the%20value%20of%20Idle)
 
 - VHDL ---    VHSIC HDL ---- VERY HIGH SPEED INTEGRATED CIRCUIT HARDWARE DESCRIPTION LANGUAGE
 
