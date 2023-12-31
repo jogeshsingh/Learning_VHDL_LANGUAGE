@@ -58,3 +58,4 @@
 
   - `Task to be done -: `
   - Make a configurable adder in VHDL
+  - Chekc compiler directives `if_def` in `Digital System Design using Verilog by Charles Roth`
