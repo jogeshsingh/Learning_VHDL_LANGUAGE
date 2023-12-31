@@ -53,3 +53,8 @@
 
 - Language constructs and their syntax and semantics
   are introduced in this book as they are needed.
+
+
+
+  - `Task to be done -: `
+  - Make a configurable adder in VHDL
