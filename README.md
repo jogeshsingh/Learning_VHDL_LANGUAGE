@@ -57,7 +57,7 @@
 
 
   - `Task to be done -: `
-  - `MAKE A ASYNCHRONOUS_FIFO in VHDL`
+  - `MAKE A Configurable ASYNCHRONOUS_FIFO in VHDL`
   - `DO its timing analysis`
   - Chekc compiler directives `if_def` in `Digital System Design using Verilog by Charles Roth`
   - Check Functions and Task in above book
