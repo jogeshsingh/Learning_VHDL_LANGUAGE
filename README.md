@@ -57,7 +57,8 @@
 
 
   - `Task to be done -: `
-  - Make a configurable adder in VHDL - `Design Recipes for FPGAs`
+  - `MAKE A ASYNCHRONOUS_FIFO in VHDL`
+  - `DO its timing analysis`
   - Chekc compiler directives `if_def` in `Digital System Design using Verilog by Charles Roth`
   - Check Functions and Task in above book
   - Check Fixed and floating point arithmetic topic (search , learn from videos)
