@@ -103,7 +103,7 @@ process(i_clk , reset)
                        next_state <= s1 ;
                        out_seq    <= '0';
                       else  
-                       next_state <= current_state  ;
+                       next_state <= s0  ;
                        out_seq   <=  '0';
                       end if ;
                       
