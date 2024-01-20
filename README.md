@@ -57,7 +57,12 @@
 
 
   - `Task to be done -: `
-  - Make a configurable adder in VHDL - `Design Recipes for FPGAs`
+  - `MAKE A Configurable ASYNCHRONOUS_FIFO in VHDL`
+  - `DO its timing analysis`
+ 
+  - [UART](https://github.com/alialaei110/HDLab-FPGA-Development-Board/blob/master/Example-Projects/VHDL_Module/UART/UART.vhd)
+  - Do its simulation
+  - Then implement your own 
   - Chekc compiler directives `if_def` in `Digital System Design using Verilog by Charles Roth`
   - Check Functions and Task in above book
   - Check Fixed and floating point arithmetic topic (search , learn from videos)
