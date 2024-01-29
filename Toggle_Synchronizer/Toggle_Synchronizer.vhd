@@ -152,11 +152,11 @@ begin
 	     if (sync_reset = '1') then 
 		     d_ff_2 <= (others => '0')                                      ;
 		 else 
-		     d_ff_2 <= d_ff_2(FF_STAGES-2 downto 0 ) & d_ff_1                ;                        
+		     d_ff_2 <= d_ff_2(FF_STAGES-2 downto 0 ) & d_ff_1               ;                        
 		    -- d_ff_2(FF_STAGES
 		 end if                                                             ;
-	   end if                                                               ;
-end process rtl_proc_dest_clk                                               ;
+	   end if                                                                   ;
+end process rtl_proc_dest_clk                                                       ;
 
 
 ----------------------------
