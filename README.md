@@ -54,6 +54,7 @@
 - Language constructs and their syntax and semantics
   are introduced in this book as they are needed.
 
+## Some Important keywords in VHDl
 
 
   - `Task to be done -: `
