@@ -20,11 +20,11 @@
 
    - [Memories_in_VHDL](https://www.eng.auburn.edu/~nelson/courses/elec4200/Slides/VHDL%205%20Memory%20Models.pdf)
  
-   - ![numeric_std_conversion](numeric_std_conversions.gif)
+ ![numeric_std_conversion](numeric_std_conversions.gif)
 
    - [Understanding_VHDL_ATTRIBUTES](http://xilinx.info/_hdl/2/_ref/acc-eda/language_overview/objects__data_types_and_operators/understanding_vhdl_attributes.htm#:~:text=%E2%80%98Succ%20%28value%29%20Example%3A%20V%3A%20state_type%20%3A%3D%20state_type%20%28Idle%29%3B,%28Read%29%3B%20--%20V%20has%20the%20value%20of%20Idle)
 
-- VHDL ---    VHSIC HDL ---- VERY HIGH SPEED INTEGRATED CIRCUIT HARDWARE DESCRIPTION LANGUAGE
+   - VHDL ---    VHSIC HDL ---- VERY HIGH SPEED INTEGRATED CIRCUIT HARDWARE DESCRIPTION LANGUAGE
 
    - It's used to decribe digital logic design , especially mostly used for creating RTL Design 
 
@@ -37,8 +37,6 @@
    depict the building blocks of electronic (binary 1's and 0's) system , it comprises of various control path (`FSM `) and data path sub blocks 
    which are further categorized in `MUX` , `DEMUX`  , `DECODERS` , `Flip flops` ,
    complex state machines for controlling the flow of data 
-
-
 
 ## Background of VHDL 
 
@@ -53,6 +51,8 @@
 
 - Language constructs and their syntax and semantics
   are introduced in this book as they are needed.
+
+
 
 ## Some Important keywords in VHDL
 
