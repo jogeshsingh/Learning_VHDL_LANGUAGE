@@ -52,6 +52,7 @@
 - Language constructs and their syntax and semantics
   are introduced in this book as they are needed.
 
+## SIGNALS Vs Variable
 
 
 ## Some Important keywords in VHDL
