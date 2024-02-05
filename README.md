@@ -59,17 +59,16 @@
 - For e.g-: let's say we use `generic` keyword in VHDL
 
     - Generic ( SYNC_STATGE := 2);
- 
     - HAS_SYNC_STAGES : if SYNC_STAGES = 1 generate
-    -    begin
-    -    SYNC_REG[0] <= I_din ;
-    -    SYNC_REG[1] <= SYNC_REG[0];
-    - end generate HAS_SYNC_STAGES;
+         begin
+         SYNC_REG[0] <= I_din ;
+         SYNC_REG[1] <= SYNC_REG[0];
+      end generate HAS_SYNC_STAGES;
      
     - HAS_NO_SYNC_STAGES : if SYNC_STAGES = 0 generate
-    -  begin
-    -   out_reg <= i_din ;
-   - end generate HAS_NO_SYNC_STAGES ;
+       begin
+       out_reg <= i_din ;
+      end generate HAS_NO_SYNC_STAGES ;
 
   
 
