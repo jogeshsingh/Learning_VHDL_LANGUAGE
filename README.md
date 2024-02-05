@@ -55,6 +55,9 @@
 
 ## Generate statements in VHDL
 
+- In `VHDL` Generate statements has numerous usecases.
+- For e.g-: 
+
   
 
 ## SIGNALS Vs Variable
