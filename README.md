@@ -67,9 +67,9 @@
     - end generate HAS_SYNC_STAGES;
      
     - HAS_NO_SYNC_STAGES : if SYNC_STAGES = 0 generate
-    -      begin
-    -       out_reg <= i_din ;
-   -       end generate HAS_NO_SYNC_STAGES ;
+    -  begin
+    -   out_reg <= i_din ;
+   - end generate HAS_NO_SYNC_STAGES ;
 
   
 
