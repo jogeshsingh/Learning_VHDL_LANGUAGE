@@ -52,6 +52,11 @@
 - Language constructs and their syntax and semantics
   are introduced in this book as they are needed.
 
+
+## Generate statements in VHDL
+
+  
+
 ## SIGNALS Vs Variable
 
 
