@@ -76,7 +76,13 @@
  ## using PACKAGE IN VHDL 
 
  - `Packages` come handy in VHDL
- - Especially when you have lot of many `constant` and `subtypes` to use in different entities
+ - Especially when you have lot of many `constant` and `subtypes` to use in different enti
+ - `LETs` go through an example
+
+      - package types_co is
+  
+      -  constant DATA_WIDTH : integer := 32 ;
+      -  subtype 
 
 ## SIGNALS Vs Variable
 
