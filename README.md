@@ -80,7 +80,7 @@
  - `LETs` go through an example
 
       - use ieee.std_logic_1164.all;
-      - use iee
+      - use ieee.numeric_std.all   ;
       - package types_co is
   
       -  constant DATA_WIDTH : integer := 32 ;
