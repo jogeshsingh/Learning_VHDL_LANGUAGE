@@ -79,10 +79,12 @@
  - Especially when you have lot of many `constant` and `subtypes` to use in different enti
  - `LETs` go through an example
 
+      - use ieee.std_logic_1164.all;
+      - use iee
       - package types_co is
   
       -  constant DATA_WIDTH : integer := 32 ;
-      -  subtype 
+      -  subtype  packet_len  is unsigned ((PACKET_LENGTH-1) downto 0) ;
 
 ## SIGNALS Vs Variable
 
