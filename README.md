@@ -75,6 +75,9 @@
 
  ## using PACKAGE IN VHDL 
 
+ - `Packages` come handy in VHDL
+ - Especially when you have lot of many `constant` and `subtypes` to use in different entities
+
 ## SIGNALS Vs Variable
 
 
