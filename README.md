@@ -79,12 +79,17 @@
  - Especially when you have lot of many `constant` and `subtypes` to use in different enti
  - `LETs` go through an example
 
-      - use ieee.std_logic_1164.all;
-      - use ieee.numeric_std.all   ;
-      - package types_co is
+       - use ieee.std_logic_1164.all;
+       - use ieee.numeric_std.all   ;
+       - package types_co is
   
-      -  constant DATA_WIDTH : integer := 32 ;
-      -  subtype  packet_len  is unsigned ((PACKET_LENGTH-1) downto 0) ;
+       -  constant DATA_WIDTH : integer := 32 ;
+       -  subtype  packet_len  is unsigned ((PACKET_LENGTH-1) downto 0) 
+       -  end package 
+
+       - package body frame_start is
+       - function and_gate (out_g : std_logic_vector
+
 
 ## SIGNALS Vs Variable
 
