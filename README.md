@@ -55,6 +55,8 @@
 
 ## Generate statements in VHDL
 
+- `AXI ETHERNET LITE` example design has good examples on generate statements
+
 - In `VHDL` Generate statements has numerous usecases.
 - For e.g-: let's say we use `generic` keyword in VHDL
 
