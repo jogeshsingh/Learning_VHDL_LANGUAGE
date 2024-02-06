@@ -72,7 +72,8 @@
           out_reg <= i_din ;
           end generate HAS_NO_SYNC_STAGES ;
 
-  
+
+ ## using PACKAGE IN VHDL 
 
 ## SIGNALS Vs Variable
 
