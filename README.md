@@ -58,8 +58,8 @@
 - In `VHDL` Generate statements has numerous usecases.
 - For e.g-: let's say we use `generic` keyword in VHDL
 
-    - Generic ( SYNC_STATGE := 2);
-     - HAS_SYNC_STAGES : if SYNC_STAGES = 1 generate
+      - Generic ( SYNC_STATGE := 2);
+      - HAS_SYNC_STAGES : if SYNC_STAGES = 1 generate
 
       begin
          SYNC_REG[0] <= I_din ;
