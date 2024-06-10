@@ -20,11 +20,11 @@
 
    - [Memories_in_VHDL](https://www.eng.auburn.edu/~nelson/courses/elec4200/Slides/VHDL%205%20Memory%20Models.pdf)
  
-   - ![numeric_std_conversion](numeric_std_conversions.gif)
+ ![numeric_std_conversion](numeric_std_conversions.gif)
 
    - [Understanding_VHDL_ATTRIBUTES](http://xilinx.info/_hdl/2/_ref/acc-eda/language_overview/objects__data_types_and_operators/understanding_vhdl_attributes.htm#:~:text=%E2%80%98Succ%20%28value%29%20Example%3A%20V%3A%20state_type%20%3A%3D%20state_type%20%28Idle%29%3B,%28Read%29%3B%20--%20V%20has%20the%20value%20of%20Idle)
 
-- VHDL ---    VHSIC HDL ---- VERY HIGH SPEED INTEGRATED CIRCUIT HARDWARE DESCRIPTION LANGUAGE
+   - VHDL ---    VHSIC HDL ---- VERY HIGH SPEED INTEGRATED CIRCUIT HARDWARE DESCRIPTION LANGUAGE
 
    - It's used to decribe digital logic design , especially mostly used for creating RTL Design 
 
@@ -37,8 +37,6 @@
    depict the building blocks of electronic (binary 1's and 0's) system , it comprises of various control path (`FSM `) and data path sub blocks 
    which are further categorized in `MUX` , `DEMUX`  , `DECODERS` , `Flip flops` ,
    complex state machines for controlling the flow of data 
-
-
 
 ## Background of VHDL 
 
@@ -54,6 +52,51 @@
 - Language constructs and their syntax and semantics
   are introduced in this book as they are needed.
 
+
+## Generate statements in VHDL
+
+- `AXI ETHERNET LITE` example design has good examples on generate statements
+
+- In `VHDL` Generate statements has numerous usecases.
+- For e.g-: let's say we use `generic` keyword in VHDL
+
+      - Generic ( SYNC_STATGE := 2);
+      - HAS_SYNC_STAGES : if SYNC_STAGES = 1 generate
+
+      begin
+         SYNC_REG[0] <= I_din ;
+         SYNC_REG[1] <= SYNC_REG[0];
+      end generate HAS_SYNC_STAGES;
+     
+      - HAS_NO_SYNC_STAGES : if SYNC_STAGES = 0 generate
+
+          begin
+          out_reg <= i_din ;
+          end generate HAS_NO_SYNC_STAGES ;
+
+
+ ## using PACKAGE IN VHDL 
+
+ - `Packages` come handy in VHDL
+ - Especially when you have lot of many `constant` and `subtypes` to use in different enti
+ - `LETs` go through an example
+
+       - use ieee.std_logic_1164.all;
+       - use ieee.numeric_std.all   ;
+       - package types_co is
+  
+       -  constant DATA_WIDTH : integer := 32 ;
+       -  subtype  packet_len  is unsigned ((PACKET_LENGTH-1) downto 0) 
+       -  end package 
+
+       - package body frame_start is
+       - function and_gate (out_g : std_logic_vector
+
+
+## SIGNALS Vs Variable
+
+
+## Some Important keywords in VHDL
 
 
   - `Task to be done -: `
