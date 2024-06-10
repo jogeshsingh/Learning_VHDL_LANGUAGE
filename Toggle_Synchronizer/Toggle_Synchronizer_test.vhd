@@ -76,18 +76,18 @@ begin
  ------------------------
  clk_proc_a : process 
  begin
-    wait for 20 ns ;
+    wait for 5 ns ;
 	i_clk_src <= '0'  ;
-	wait for 20 ns ;
+	wait for 5 ns ;
 	i_clk_src <= '1'  ; 
  end process clk_proc_a ;
  
  
  clk_proc_b : process 
  begin
-    wait for 5 ns ;
+    wait for 20 ns ;
 	i_clk_dest <= '0'  ;
-	wait for 5 ns ;
+	wait for 20 ns ;
 	i_clk_dest <= '1'  ; 
  end process clk_proc_b ;
 
@@ -110,13 +110,13 @@ begin
    begin 
         wait for 200 ns ;
 		i_din <= '1'    ;
-		wait for 40 ns  ;
+		wait for 10 ns  ;
 		i_din <= '0'    ;
 		wait for 200 ns ;
 		i_din <= '1'    ;
-      wait for 40 ns  ;	
+      wait for 10 ns  ;	
       i_din <= '0'    ;	
-	--	wait            ;
+	wait            ;
  end process pulse_gen  ;
 		
 		

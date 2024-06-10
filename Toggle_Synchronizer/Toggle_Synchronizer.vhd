@@ -34,7 +34,7 @@ architecture behav_rtl of Toggle_Synchronizer is
 
 -- component declaration
 
-  component mux_logic is 
+  component mux_2_1 is 
  port 
      (
        in_1   : in std_logic ;
@@ -43,7 +43,7 @@ architecture behav_rtl of Toggle_Synchronizer is
        out_m  : out std_logic 
      ) ;
 
-  end component mux_logic  ;  
+  end component mux_2_1  ;  
 
 
 
@@ -132,7 +132,7 @@ not_gate <= not(d_ff_1)                                                       ;
 -- Mux
 --------------------
 
-UU_MUX: mux_logic 
+UU_MUX: mux_2_1 
  port map 
      (
        in_1   => d_ff_1 , 
