@@ -95,7 +95,6 @@
 
 ## SIGNALS Vs Variable
 
-## MAKE CHANGES IN ASYNCHRONOUS RESET DOMAIN crossing as RESET IS NOT INCLUDED IN PROCESS ??????
 
 ## Some Important keywords in VHDL
 
